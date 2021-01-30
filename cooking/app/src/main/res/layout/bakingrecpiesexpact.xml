@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"  >
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Cooking Recpies"
+        android:background="#40A627"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+	<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/text"
+        android:background="@drawable/bg">
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type1"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Banana Bread"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bananabread"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="WHITE SUGAR 1 1/4 Cup \nSOFTENED BUTTER 1 1/2 Cup \nEGGES 2 Large \nMASHED RIPE BANANAS 3-4 Numbers \nBUTTER MILK 1 Cup \nVANILLA 1 Teaspoons \nALL PURPOSE FLOUR 2 1/2 Cup \nBAKING SODA 1 Teaspoons"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pre-heat oven to 350 degrees.\nGrease bottoms only of 2 loaf pans with shortening.\nMix sugar and butter in large bowl.\nStir in eggs until blended.\nAdd bananas,buttermilk,and vanilla.\nStir in flour,baking soda.\nMix well.Fill each pan halfway.\nBake about 1 hour to 1 1/4 hours or until toothpick when i nserted in centre comes out clean.\nCool 5 min.\nLoosen sides from pan then remove.\nStore at room temparature upto 10 days."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type2"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Potato Fish Pie Recipe"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/potatofishpie"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Potatoes – 1. 75 kg [peeled and cut into chunks\nSpring onions – 1 bunch\nSalmon fish – 450 gms [boneless skinless salaman fish cut into chunks]\nOil – 3 tbsp\nMilk – 150 ml\nEgg – 1\nButter – 50 gms\nTurmeric powder – 1 tsp\nTurai -4 [cut into chnks]\nCarddmon – 8 pods\nTomato sauce – 500 gms [fresh]"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Boil potatoes in water for 20 mins or until tender. Preheat oven to 200 C.\n2. Cut white bulbs off the spring onions and roughly chop.\n3. Finely slice the green tops and set aside.\n4. Spread fish chunks on baking tray and scatter over the chopped spring onions.\n5. Drizzle with 2 tablespoons olive oil, sprinkle with salt and pepper and roast for 6 mins.\n6. Drain off liquid and put fish into a 2.5 litre oven dish.\n7. Drain potatoes well, add milk and egg and mash.\n8. Melt butter in a small pan and cook spring onion tops for 1 minute.\n9. Add turmeric and stir for 30 seconds and then add to mashed potato and beat well. Add salt and pepper to taste.\n10. Heat remaining olive oil in a large frying pan, add courgettes and fry for 5 mins.\n11. Add cardamom pods and fry for 30 secs. Stir in tomato sauce, bring to boil and simmer for 1 min.\n12. Season, remove from heat and cool. \n13. our sauce over fish and spring onions and spoon over mash so all sauce and fish are covered.\n14. Rough up with fork. Cool, keep covered in fridge. Uncover pie and bake for 35-40 mins"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type3"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Crunchy Potato Chip Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/crunchypotato"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken – 1 kg {sliced chicken cutlets}\nEgg – 1\nMilk – 1/2 cup\nPotato chips – 1/4 bag\nBlack pepper – 2 tsp\nPaprika – 1/2 tsp\nSalt to taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="\n1. Grease a baking sheet and preheat the oven to 400 degrees F.\n2. Trim the fat off the chicken breasts, and beat the egg and milk together in a shallow bowl.\n3. Fold over the top of the potato chip bag and crush the chips with a rolling pin.\n4. Dip the chicken cutlets in the egg mixture and drop them one at a time in the potato chip bag.\n5. Fold the top over, give the bag a quick shake, and arrange the coated chicken on the greased baking sheet.\n6. After you’ve coated and arranged all the chicken pieces, take any of the leftover chip pieces from the bag and arrange them artfully over the top of the chicken pieces.\n7. Sprinkle with freshly ground black pepper and paprika.\n8. Bake the chicken for 20 minutes, or until golden brown and cooked through. "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type4"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Almond and Choco Chip Cookies"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/almondandchoco"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="All Purpose Flour – 1 3/4 cup\nBaking Powder – 1 tsp\nSalt – 1/4 Tea Spoon"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Take a mixing bowl, add Maida, baking soda and salt and mix together well and set aside.\n2. Take a mixer jar and  add 2/3 cups of sugar.\n3. Add two large eggs\n4. Whisk and combine the eggs and sugar well in high speed until the mixture turns pale and fluffy. Mix for about 5 minutes.\n5. Now add the dry mixture to this wet mixture and combine together till all of it is mixed well\n6. The mix will look a little crumbly.\n7. Now   stuff – 3/4 cup of blanched whole almonds or chopped almonds. I had some slivered almonds and used those in place\n8. Add the almonds to the dough\n9. Next add the chocolate chips along with the almonds.\n10. Fold the chocolate chips and almonds into the dough until well combined.\n11. Move the dough as a ball on to a parchment paper lined baking sheet.\n12. Moisten hands with a little water and press down the dough to form a flat log about 12 inches long and 3-4 inches wide\n13. Bake this in a pre heated oven at 350 F for about 25 minutes. The top will firm up after baking. Take the log out of the oven and rest for about 10 minutes\n14. Using a serrated knife, cut sidewise into long thick slices\n15. Move these slices again to a baking sheet and bake for a second time for about 10 minutes on each side turning them once in between.\n16. Now the almond and chocolate chip biscuits are ready.\n17. Eat and enjoy the excellent taste of it."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type5"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Cardamom Cookies"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/cardamomcookies"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Unsalted Butter   - 1 cup\nSugar    - 2 cups\nCardamom Powder (Elachi) - 2 Tea Spoon\nEggs    - 4\nFine Wheat Flour (Maida)  - 2 cups\nSalt   - 1 Tea Spoon"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. In a bowl, beat the butter, sugar and cardamom powder for 3 minutes.\n2. Then with the beater going add the eggs one at a time.\n3. When the mixture gets light take it out in a bowl and add the flour and salt with a light hand.\n4. When soft dough gets prepared with the help of a spoon drop them on a nonstick cookie sheet.\n5. Place them 1/2″ apart.\n6. Bake these cookies in a preheated oven at 325 F for 10 – 11 minutes or till the cookies have a golden color.\n7. Repeat the baking procedure for the remaining dough."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type6"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken Pasta Bake"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chickenpastabake"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pasta – 5oo gms\nBoneless chicken -100 gms\nPasta sauce 300 ml\nOil- 2 tbsp\nCheese 200 gms{grated}\nSalt to taste\nPepper – 2tbsp"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Wash and cut chicken into thin and long pieces.\n2. In a deep pan boil 1 liter of water then add salt and 1 TBS spoon of oil.\n3. add pasta and boil for 10- 15 minutes or follow the instructions on the packet\n4. When the pasta is cooking , in the mean while take remaining oil in a pan and fry chicken for 5 minutes.\n5. add pasta sauce to chicken and shimmer for 5- 10 minutes then add salt and pepper.\n6. Drain the pasta and mix well with chicken sauce and transfer into a ovenable Big bowl and sprinkle grated cheese.\n7. ) Bake it for 5 minutes at 200c preheated oven."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+         
+        
+       	 <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type7"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Coconut Cup Cakes"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/coconutcupcakes"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Fine Wheat Flour (Maida)  - 6 cups\nBaking Powder   - 2 tsp\nSodium Bicarbonate  - 1 Tea Spoon\nSalt   - 1 Tea Spoon \nSugar   - 4 cups\nunsalted Butter  - 1 1/2 cup\nEggs    - 6\nAlmond Essence   - 3 Tea Spoon\nVanilla Essence   - 3 Tea Spoon\nButter Milk   - 2 cups\nCoconut    - 5 1/2 cups\nCream Cheese   - 900 Grams"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. First preheat the oven at 160 degrees.\n2. Grease a tin and place pape cases on it.\n3. Mix flour, baking powder, soda and salt.\n4. Beat and cream sugar and butter.\n5. Add eggs one at a time.\n6. Now mix the essences.\n7. Next add the flour alternatively with the buttermilk.\n8. Mix half of the grated coconut.\n9. Fill the paper cases with the mixture.\n10. Bake them for 25 – 30 minutes or till they are golden in color.\n11. For icing beat the cream cheese, butter, sugar and the essence till smooth and creamy.\n12. Place a layer of this icing on the bakes cupcakes and sprinkle some coconut on them."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type8"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken Parmesan"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chicenparmesan"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Bonless chicken – 500 gms\nMilk – 1 cup\nEgg – 1\nCheese – 8 piece\nPasta sauce – 1 cup\nOil – 1/4 cup\nBread crumbs – as needed"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Beat egg and milk in a bowl.\n2. Dip the chicken pieces in milk, roll in bread crumbs and set aside.\n3. Heat olive oil in a skillet.\n4. Add chicken pieces, fry till golden and set aside.\n5. Grate cheese and cut cheese into small pieces.\n6. Spread the chicken pieces in a bowl.\n7. Place cut cheese over the chicken.\n8. Add pasta sauce, sprinkle grated cheese.\n9. Bake at 350 F for half an hour.\n10. Serve with garlic bread and salad."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type9"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken Stuffed Buns"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chickenstuffedbuns"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Active dry yeast-1tbsp\nWarm water-2tbsp\nVegetable oil-1/2cup\nMilk-1/2cup\nMaida-2 1/4cup\nEgg-1{betan}\nSugar-2tbsp\nEgg white-\n White sesam seeds for sprinkl\nCHICKEN STUFFING:\nShredded Chicken-1 1/2cup{cooked}\nGinger garlic paste-1tsp\nCorinder powder-1tsp\nRed chilli powder-1tsp\nOnion-1{chopped}\nCumin powder-one pinch\nCoriander leaves-2tbsp\nGaram masala powder-one pinch\nSalt to taste"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Dissolve the yeast in warm water with 1/2 tbsp sugar and 1/2 tbsp flour. Leave aside for 10 mts.\n2. Boil the milk and cool till it is warm on touch. Add sugar, oil and salt.\n3. Mix well with a wooden spoon till the sugar dissolves. Add 1 cup flour and mix to a smooth paste.\n4. Add the beaten egg, yeast and mix. Add the remaining flour and mix well till it forms a smooth dough.\n5. Knead well for 10 mts. Let it rest till it doubles in volume (approx an hour or two). While its resting prepare the chicken filling.\n6. Punch down the dough lightly using your palm and divide the dough equally.\n7. Flatten each portion and fill with 1 tbsp of the chicken filling. Re-shape into a smooth ball. Sprinkle the top with sesame seeds.\n8. Let it sit/prove for another 20 mins.\n9. Bake them in a pre-heated oven at 200 degrees C for 10-12 mts. When it starts to brown, brush tops with egg white.\n10. Method for Chicken Filling – Heat oil in a heavy bottomed vessel, add the onions and saute for 4 mts. Add ginger garlic paste and saute for 4 mts.\n11. Reduce the heat, add the red chili powder, coriander powder, cumin powder and garam masala powder and mix well.\n12. Add the shredded chicken and mix well. Add salt to taste. Cook for 3 mts.\n13. Turn off heat and cool. Add coriander leaves and mix."
+                     android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type10"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Fish Cutlets"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/fishcutlets"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="150g canned tuna fish (any fish you like)\n150g potatoes – boiled and mashed\n1/2onion – finely chopped\n4 -5 garlic cloves – finely chopped\n1 x 5cm ginger – finely chopped\n2 green chilies – finely chopped\n4 -5 curry leaves (I didn’t have it)\n½ of a lime or lemon\n½ teaspoon chili powder\n½ teaspoon Sri Lankan raw curry powder\n¼ teaspoon turmeric\n¼ teaspoon paprika powder\n1 – 1½ tablespoons black pepper powder\n3 tablespoons oil"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Heat a pan with oil in medium heat.\nThen add chopped garlic and ginger. Fry it for nearly 1minute.\nAdd the onions and fry it till it’s gets light brown.\nNow you can add fish or salmon into the pan and and mix it well. Let it cook for nearly 6 - 8 minutes.\nPut the heat on law heat and add chili powder, turmeric, pepper and salt, mix the mixture well.\nReduce the heat to low and add mashed potatoes. Mix it well with the fish mixture.\nAdd lime juice and also taste for salt.\nLet it cool nearly 1 hour and now you have make the cutlets to any shape you like. Grab a small handful and slowly form into ball.\nMaking the Batter OR use the beaten egg:\nIn a medium bowl, mix the flour, water and pinch of salt together. If you like add pinch of turmeric into the batter.\nDeep Frying:\nHeat the oil in a large frying pan in medium heat.\nWhen the oil is ready, one by one dip the cutlets in flour batter OR in the beaten eggs and, coated it with bread crumbs well. And deep fry the cutlets till you get a nice golden brown.\nDrain the excess oil in kitchen tissues.\nNOTES:\n1. The most important part when you are forming the cutlet ball, to make sure you don't have any cracks on your cutlet ball. If you have a crack then the cutlet will burst and open when it´s frying.\n2. If you don´t like to use the flour batter, you can use the beaten egg for egg washing.\n3. If the whole cutlet is not in the oil, make sure you put the oil on the top of the cutlets with a spoon and also remember to turn the sides. If not cutlet will burst from the side which is above the oil."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type11"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Butter Cookies"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/buttercookies"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="All purpose flour (Maida)  - 6 cups\nBaking powder    - 3 teaspoons\nSalt     - 1 teaspoon\nWhite sugar    - 2 cups\nButter or margarine   - 2 cups\nEggs    - 2 \nCream     - 6 tablespoons\nVanilla extract   - 2 teaspoon"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Sift flour, baking powder, salt and sugar together. Mix well.\n2. Add the butter.\n3. Add egg, cream and vanilla extract thoroughly.\n4. Wrap this dough into a foil and refrigerate for at least 24 hrs.\n5. Reheat the oven for 400 degrees.\n6. Now roll the dough into a crust which is 1/4 to 1/8 thick.\n7. Now with the help of a cookie cutter cut the cookies.\n8. Lastly place them on a greased tray and bake them at 400 degrees for 5 – 8 minutes"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type12"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Bannana Chocolate Cake"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bannanachocolatecake"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Egg     - 1\nBaking powder   - 1 1/2 Tea Spoon\nMashed banana   - 1 cup\nAll purpose flour   - 1 1/2 cup\nSemi sweet chocolate chips - 3/4 cup\nUnsalted butter which is melted  - 1/2 cup\nSalt     - 1/4 Tea Spoon\nWhite sugar    - 2/3 cup\nMilk     - 1/4 cup"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. In a large mixing bowl stir together all purpose flour, sugar, salt and baking powder.\n2. Take another bowl and mix together melted butter milk egg and mashed bananas.\n3. Now add the banana mixture into the flour mixture until thoroughly blended.\n4. Be careful not to over mix.\n5. Add the chocolate chips. Preheat the oven to 350 degrees F to 175 degrees C.\n6. Grease and flour a 9×13 inch pan.\n7. Pour the batter into the pan and bake it for 32-35 minutes or until the toothpick inserted into it comes out clean.\n8. When the cake gets baked take out the pan from the oven and let it cool for 10-15 minutes.\n9. This cake will have some melted chocolate but no crumbs"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type13"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Honey Cake"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/honeycake"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Honey    -  1 cup\nApple sauce   - 1 cup\nEggs    - 3\nCinnamon   - 1 teaspoon\nClove    - 1/2 teaspoon\nNutmeg   - 1/2 teaspoon\nRice flour  - 1 cup\nWheat flour  - 1 cup\nBaking powder   - 1/2 teaspoon\nBaking soda   - 1 teaspoo\nDecaffeinated coffee - 1 cup"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Take a large bowl and mix honey, apple sauce and eggs in it.\n2. Take another bowl, combine the two flours together and add baking powsder, spices and baking soda to it\n3. Add the flour mixture to the wet stuff, alternating with the coffee; beat well.\n4. Put into one greased 9″x13″ pan (or, alternatively, three 8″ square pans).\n5. Bake at 325F–60-90 minutes for the large pan, 60 minutes for the three smaller pan."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type14"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Carrot Cake"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/carrotcake"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="All purpose Flour(Maida) -  2 cups\nEggs     -  4\nCarrot    -  4 big ones\nSugar    -  2 cups\nOil     -  1 1/4 cup\nCinnamon powder  -  1 Tea Spoon\nBaking soda   -  2 Tea Spoon\nAlmonds    -  1/2 cup (small pieces)\nCashews    -  1 cup (Fried ones for better taste)"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Take eggs, sugar and oil  in a bowl and blend well\n2. Add Maida slowly and stir well and then blend till the Maida mixes well and comes out smooth.\n3. Add grated carrots, cinnamon powder, baking soda, half of cashews and almonds to this mixture and mix well.\n4. Now take this into a baking tray and add remaining cashews and almonds on top\n5. Bake this at 350F to 400F for 40 minutes  (Until cooked).\n6. Now the delicious and healthy carrot cake is ready"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         
+         
+    </RelativeLayout>
+</RelativeLayout>

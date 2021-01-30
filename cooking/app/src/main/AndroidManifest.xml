@@ -1,0 +1,292 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.ddr.india.cook">
+
+    <dist:module dist:instant="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ddr.india.cook.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.AfricanRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.AfricanRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.AmericanRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.AmercaRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ChineseRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ChineseRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.FrenchRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.FrenchRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.GermanRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.GermanRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.InternationalRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.InternationalRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ItalianRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ItalianRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.japneseRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.japaniesRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.JewishRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.JewishRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.KoreanRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.KoreanRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.MexicRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.mexicanRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.MiddleEastRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.MiddleEastRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.NepaleseRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.NeapleseRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.PakistaniRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.PakistaniRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ThaiRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ThaiRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SrilankanRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SrilankanRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.IndianRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.VegSouthRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.VegSouthRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.NonVegSouthRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.NonVegSouthRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.VegNorthRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.VegNorthRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.NonVegNorthRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.NonVegNorthRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ItemActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.BakingRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.BakingRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.BiryaniRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.BiryaniRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.BreakfastRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.BreakfastiRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ChutneyRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ChutneysRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.DessertsRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.DessertsRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.DrinksRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.DrinksRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SaladRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SaladRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SoupRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SoupsRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SnacksRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SnacksRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ChickenRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.ChickenRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SeafoodRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.SeafoodRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.MuttonRecpies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ddr.india.cook.MuttonRecpiesExpAct"
+            android:screenOrientation="portrait" >
+        </activity>
+
+    </application>
+</manifest>

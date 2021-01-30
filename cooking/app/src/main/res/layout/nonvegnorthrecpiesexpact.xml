@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"  >
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Cooking Recpies"
+        android:background="#40A627"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+	<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/text"
+        android:background="@drawable/bg">
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type1"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Sindhi Chicken Biryani"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/sindhichickenbiryani"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken – 1kg\nRice – 1 kg\nOil – 1 1/2 cup\nOnion – 4\nGinger garlic paste – 3 tbsp\nred chilli powder – 4 tbsp\nTurmeric powder – 1 tsp\nDry coriander powder – 2 tbsp\nGaram Masala powder – 1/2 tbsp\nSalt to taste\nCardamom – 3\nCinnamon – 3 pieces\nBay leaves – 3\nAnardana – 1 tsp\nDried Plums – 15\nOrange food colour – 1/2 tsp\nYoghurt – 250 gms\nTomatoes – 1/2 kg\nGreen chillies – 3\nPotatoes – 1/4 kg\nLemon – 4\nMint leaves – 1/2 bunch\nCoriander leaves – 1/2 bunch\nMace powder – 1/2 tsp\nFennel seeds – 1 tsp\nDry coriander seeds – 1 tbsp\nSalt – 2 tbsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Add oil in asaucepan.\n2. Add onions and fry till light brown and keep aside.\n3. Now add chicken in the pan and cook till water evaporates.\n4. Then add ginger and garlic in the pan and all spices. Cinnamon and cardamoms.\n5. Roast the chicken till it tenderizes.\n6. Then add potatoes, green chillies, lemon, yogurt.coriander, mint, dried plums, fried crushed onions in the pan.\n7. Simmer on low heat.\n8. Now take another saucepan,add water to boil rice.\n9. Tie the fennel seeds and coriander seeds and make a pouch and add in the boiling water along with 2 tbsp salt.\n10. When rice tenderize a little.Sieve and in a big saucepan,spread a layer of rice first, then add curry and another layer of rice.\n11. In the end, mix food colour in alittle kewra and in the rice.\n12. Cover and simmer for 5-10 minutes on low heat.\n13. Serve hot and delicious biryani with salad and raita."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type2"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Yakhini Pulao"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/yakhnipulao"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Lamb – 1 kg [lamb with bones, cut into bite sized pieces]\nBlack peppercorns – 1\nBlack Cardmom – 10\nGreen Cardamom – 6\nCloves – 6\nginger paste – 2 tbsp\nGarlic paste – 2 tbsp\nCoriander seeds – 2 tsp\nBay leaf – 1\nStar anise – 1\nCumin seeds – 1 tsp\nCinnamon – 1 piec\nRed chilli powder – 1 tsp\nOnions – 2 [fine chopped]\nOnions – 2 [sliced very thinly]"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. If you are using a pressure cooker, put 6 cups of water in it.\n2. If using a deep, heavy-bottomed pan, put 8-9 cups of water in it.\n3. Cut a piece of muslin cloth into a 6″ square and place the cinnamon, black and green cardamom, cloves, peppercorns, star anise, coriander and cumin seeds, bay leaf and red chilli powder in the center of this square.\n4. Gather up the edges and tie tightly with a piece of string to form a bundle.\n5. Put this bundle in the pressure cooker/ pan.\n6. Add the ginger, garlic pastes, meat and salt to taste to the pressure cooker/ pan and close.\n7. Boil till the meat is almost cooked.\n8. Remove the muslin bag (you can throw it out now) and separate the meat from the stock and keep aside.\n9. The stock should measure 6 cups.\n10. If there is more, boil it down till you get 6 cups. If less add hot water to it to get 6 cups.\n11. In a separate deep pan, heat the cooking oil and add the chopped onions.\n12. Fry till light golden.\n13. Now add the meat, stock, rice and yogurt and mix well.\n14. Cook on medium flame till the mixture comes to a boil, then reduce the flame to a simmer, cover and cook till the rice is done.\n15. The rice is done when you press a few grains between your index finger and thumb and they feel firm but mash completely (just like al dente pasta).\n16. Turn off the fire and allow to rest for 5 minutes.\n17. This step is optional – While the rice is resting, fry the sliced onions in cooking oil till caramalised and golden. Drain and keep on paper towels.\n18. Open the pan and stir the rice well, taking care not to break up the pieces of meat.\n19. Garnish with fried sliced onions (optional) and serve piping hot with a vegetable raita or curry dish of your choice.\nOil – 3 tbsp\nYogurt – 3 tbsp\nSalt to taste\nBasmati rice – 2 1/2 cups[washed well]"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type3"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Murg Mussllam"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/murgmussllam"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken – 800 gm\nYoghurt – 1 cup [beaten]\nTurmeric powder – 1 tsp\nGaram masala powder – 1 tsp\nRed chilli powder – 1 ts\nGreen chillies – 2 [made into a paste]\nGinger Garlic paste – 2 tsp\nCloves – 4\nCinnamon – 1 pice\nBrown Cardamoms – 4 [peeled]\nblack pepper corns \nAlmonds – 10\nCumin seeds – 1 tsp\nCoriander seeds – 1 tsp\nOnion – 1 [finily sliced \nTomato Puree – 1 cup\nWater – 1 cup\nOil – 2 tbsp\nSalt to taste\nFresh creem – 2 tsp\nCoriander leaves – 3 tbsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Make cuts on the chicken. In a bowl mix together half of the ginger-garlic paste and red chilli powder.\n2. Add the garam masala powder, turmeric powder, yoghurt and salt to taste.\n3. Mix well. Rub this marinade into the chicken very well and allow to marinate in the refrigerator for at least an hour or two.\n4. In a pan roast together cumin seeds, coriander seeds, cloves, peppercorns, cinnamon, cardamoms and almonds till they are aromatic.\n5. Fry the sliced onions till brown.\n6. Allow to cool. Grind together browned onions, roasted spices, and the remaining ginger garlic pastes with a little water.\n7. Heat half the oil in a heavy-bottomed pan till hot add the chicken (without the marinade) and fry on medium level for about 2 minute(s) or till the chicken is browned lightly.\n8. Remove fried chicken from the pan and keep aside.\n9. Add the remaining oil, heat it till hot and fry the paste on medium level for about 2 minutes.\n10. Add the chicken, marinade, tomato puree. remaining red chilli powder, water and sprinkle salt to taste.\n11. Mix well. Cover and cook on low heat for about 25 minutes or till the chicken is fully tenderised.\n12. Garnish with fresh cream (optional) and finely chopped coriander leaves."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type4"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Punjabi Chicken Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/punjabchickencurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken – 250gm\nTomato puree – 4tsp\nOnion{chopped} – 1 large\nGinger garlic paste – 1-2tsp\nCurd – 1/4cup\nRed chilli powder – 1tsp\nCoriander powder – 1tsp\nTurmeric powder – a pinch\nOil – 1tsp\nCoriander{finely chopped} – 4-5 springs\nSalt to taste\nWHOLE MASALA\nBay leaves – 2\nCardamoms – 2\nCloves – 3\nCinnamon – 1 inch\nGROUND MASALA\nDry roast the following ingredients and grind to a fine powder.\nCinnamon – 1 inch\nPeppercorn – 1/2tsp\nCumin seeds – 1/2tsp\nCloves – 2\nCardamoms – 2 "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Clean and wash the chicken. Heat oil and fry chopped onion along with ginger garlic paste for a little while.\n2. Remove and grind to a fine paste.\n3. Cook the paste along with the whole masala till golden brown.\n4. Add turmeric powder, chili powder, coriander powder, and salt to taste. 5. Fry for a little while.\n6. Now add tomato puree and cook till the oil comes out.\n7. Now add the chicken pieces and cook on medium flame for 5 minutes.\n8. Then cook on slow flame for another 5 to 10 minutes.\n9. Make a parting in the center of the pan and add curd and ground masala.\n10. Slowly fold in the chicken pieces.\n11. Cook till the chicken is done. Garnish with chopped coriander.\n12. Serve it with rice or nan."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type5"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kolhapuri Mutton Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kolhapurimuttoncurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="mUTTON – 500 GMS\nTurmeric powder – 1 tsp\nShahajira – 1 tsp\nSalt to taste\nRed chillies – 2\nGinger – 1 inch\nOil – 6 tbsp\nGreen chillies – 6\nFenugreek seeds – 1 tsp\nCoconut – 1/2 cup\nCinnamon stick – 3\nBlack pepper – 10\nRaai – 1 tsp\nGarlic – 1 pounds\nCloves – 5\nJira – 1 tsp\nlEMON juice – 2 tsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Grind ginger, garlic and green chilies.\n2. Roast dessicated coconut till brown; grind coarsely and keep aside.\n3. Fry the spices in 1 tsp oil and grind to a coarse paste.\n4. Clean mutton, and add spice paste and green chili paste to it; marinate for 2 hours.\n5. Heat oil; add mutton and let it cook on a slow flame.\n6. When thoroughly cooked, add coconut and lemon juice, salt. Serve hot. "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type6"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Mutton Rogan Josh"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/muttonroganjosh"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Bay leaf – 2\nMutton – 1kg\nGinger – 2 tbsp {crushed]\nOnions – 2 {chopped}\nGarlic – 7cloves {crushed}\nTomatoes – 3 {chopped}\nBlack peppercorns – 5\nYogurt – 1/2 cup\nCinnamoms – 1stick\ncloves – 3\nGreen cardamoms – 4\nBlack cardamoms – 1\nGaram masala powder – 1 tsp\nCumin powder – 1 tsp\nRed chilli powder – 1 tsp\nTurmeric powder – 1 tsp\nChicken stock – 1.5 cup\nOil – 3 tbsp\nCoriander leaves – 3 tbsp\nSalt to taste"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Marinate the mutton with half of ginger, half of garlic, yogurt and salt. Keep in fridge for 3 to 4 hours.\n2. In a thick bottomed pan or pressure cooker heat oil.\n3. Add bay leaves, black cardamom, green cardamom, cloves, black peppercorns, cinnamon and saute for two minutes.\n4. Add chopped onions, remaining ginger and garlic and saute till onion start turning golden on edges.\n5. Add tomato puree/ finely chopped tomatoes, salt, red chili powder, turmeric powder, garam masala powder.\n6. Mix well and saute for five minutes.\n7. Add marinated mutton and mix well in the prepared masala. Stir regularly and let it cook till the masala leaves oil on the sides of the pan.\n8. Add chicken stock or water, place lid and let it simmer on low heat for around an hour.\n9. You can even let it simmer for ten minutes and let it get cooked within a pressure cooker allowing 4 to 5 whistles to blow.\n10. Check if the mutton is cooked through.\n11. Cook uncovered for ten minutes.\n12. Sprinkle cumin powder and stir well.\n13. Serve hot garnished with chopped coriander leaves.\n14. Mutton Rogan Josh goes well with chapaties, naan, kulche, rumaali roti and even pulao."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+         
+        
+       	 <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type7"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Lamb Chops With Tarragon Sauce"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/lambchopswithtarragonsauce"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken broth – 1/2 cup\nLemon juice – 1 tbsp\nDried tarragon leaves – 1 tsp\nPepper – 1 tbsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Wipe the lamb chops with damp paper toweling.\n2. Heat the butter in a frying pan\n3. Quickly brown the chops on both sides over medium-high heat. Reduce heat.\n4. Sprinkle chopps wiht tarragon and black pepper.\n5. . Cover and cook over low heat 10 to 15 minutes or until chops are tender. Length of time depends on thickenss and quality of chops. Remove chops to platter and keep warm. Salt to taste.\n6. To make the sauce, pour the broth, lemon juice and tarragon into the skillet with the pan drippings. Simmer, stirring, for 3 to 4 minutes until blended and heated through. Pour over chops and serve."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type8"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Spicy Lamb Shank Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/spicylambshankcurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ONions – 2\nTomatoes – 2\nGreen chillies – 3\nLime – 1\nCoriander leaves – 3 tbsp\nTurmeric powder – 1/2 tsp\nChilli powder – 2 tbsp\nGaram masala – 3 tbsp\nGinger garlic paste – 4 tbsp\nSalt to taste\nLamb Shanks – 2"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Wash lamb shanks in a bowl and marinate with ginger garlic paste, chilli powder, turmeric, salt and lime for 1-2 hours.\n2. Cut onions, tomatoes and chillies finely.\n3. Take a pressure cooker pan or slow cooker and heat oil and fry onions and chillies till golden brown.\n4. Add tomotoes and garam masala and cook it for 5 minutes.\n5. Finally add marinated lamb shanks and fry for 5 minutes minutes with out adding water.\n6. Garnish with coriander leaves and serve with plain rice."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type9"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Spinach Mutton Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/spinachmuttoncurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Spinach – 500 gm\nMutton – 1 kg\nOnions – 2\nTomatoes – 2\nRed chilli powder – 2 tbsp\nGaram masala powder – 2 tbsp\nGinger garlic paste – 2 tbsp\nOil – 2 tbsp\nCoriander leaves – 4tbsp\nTurmeric powder – 1/2 tsp"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Wash and cut mutton into small pieces.\n2. wash spinach.\n3. wash and cut onions, tomatoes and chillis into very small pieces.\n4. Place the mutton in a pan and mix with 2 Tbl spoons Ginger Garlic paste, 2 Tbl spoon red chilli powder, Pinch of Turmeric powder and salt and cook for 30minutes or pressure cook it if it is tough mutton with out adding water.\n5. In a seperate pan boil spinach for 7-8 minutes and after it is cool make into a paste using food proccessor or grinder and keep it aside.\n6. In a deep pan heat oil and fry onions and chillis for 2 minutes.\n7. Add tomatoes and fry for 3 more minutes and then add garam masala.\n8. Add cooked muton to the pan and fry for 5-8 minutes.\n9. Add spinach mutton and mix well and cook fo 5 more minutes and then add corriander leaves.\n10. serve with plain rice or chappatis."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type10"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken Ki Chop"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chickenkichop"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken – 500 gms\nTomato – 3\nOnion – 2\nSoya souce – 1/4 cup\nChilli powder- 2 tsp\nGreen chilli – 2\nTurmeric powder – 1/4 tsp\nCinnamon – a small piece\nSaunf – 1/2 tsp\nOil – 3 tbsp\nSalt to taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Wash and cut chicken into pieces.\n2. Cut onion, tomato, green chilli finely.\n3. Heat oil in a pan.\n4. Add cinnamon, saunf and when saunf splutters, add onion, tomato, green chilli and fry.\n5. When onion is soft, add chilli powder, turmeric powder, chicken pieces, salt and cook.\n6. When the chicken is half cooked, add soya sauce and cook.\n7. When contents start thickening, switch off the stove"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type11"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Omelette Rolls"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/omeletterrolls"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4 eggs beaten\n¼ cup onion chopped\n¼ cup capsicum chopped\n¼ cup paneer grated\n¼ cup milk maid\n2 potatoes boiled\n1 table spoon each red and green chillies chopped\n¾ table spoon black pepper powder\nOil in sufficient quantity\nSalt: to taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Beat the eggs.\n2.Add salt and pepper powder and prepare 4 large omelettes.\n3.Heat 1 table spoon of oil. Mix chopped onion and capsicum with it and sauté well till tender.\n4.Add boiled potatoes, paneer, milk maid, mirchi, salt and pepper etc to make a paste\n5.Stuff the paste in omelletes and role it."
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type12"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dry Mutton Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/drymuttoncurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Mutton-500gms\nOnions-2Oil-5tbsp\ngarlic paste-2tsp\nDry red chilli paste-2tsp\nturmeric powder-1/2tsp\nCumin seed powder-1tsp\nCoriander powder-1tsp\nGinger paste-1tsp\nClove -1\nBlack pepper-few\nCinnamon-1/2tsp\nCardmom-1/2tsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. -First of all boil out the mutton in cooker.\n2. keep it aside squsing out the water.\n3. Apply little oil turmeric,chili,cuminseed,coriander powder and zinger garlic paste and keep it aside for 1/2 an hr.\n4. .Then take a vessel, pour oil in it and heat it on gas.\nAdd few.\n5. cloves , cardamom,black pepper, acassia ,cinnamon and cuminseeds and fry.\n6. Add chopped onion and when it becomes brown.\n7. Add garlic zinger paste and fry after this to it add onion paste and fry,When water dries up and oil starts seperating.\n8. Add cuminseed,coriander,termeric and chili powder then fry.\n9. Add the mutton and fry till the water eveporates out and oil starts seperating, then add salt to taste and cover the pan for few minutes,now it is ready to serve."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type13"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="White Mutton Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/whitemuttoncurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Meat-600gms\npoppya seeds-50gms\ncashewnut paste-50gms\ngroundnut paset-50gms\ngarlic paste-1tsp\nginger paste-1tsp\nred chilli powder- 2tbsp\ncoconut milk-2cup\ntamarind pulp-50gms\ngreen chilli paste-2tsp\nonions-4\ncurry leaves\nsalt to taste\noil-3tbsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Boil the meat partially (half cook) with ginger garlic paste, oil and red chilli powder.\n2. Make cashewnut paste, groundnut paste and khus khus paste separately.\n3. Mix all three pastes with green chilli paste.\n4. When the meat is half cooked, add all these pastes to the meat and sautï¿½ it on low flame till the oil separates.\n5. Add the coconut milk and cook for 5 mins.\n 6. Then add the tamarind pulp. Cook for a while.\n7. Remove the vessel from heat. Cool it.\n8. Take little oil in a pan. Add curry leaves.\n9. Let it splutter and fry till the curry leaves become black.\n10. Cool the oil and then put in the meat gravy.\n11. Serve the curry with basmati rice decorated with barista and coriander leaves. "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type14"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Mutton Curry With Chillird"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/muttoncurrywithchillies"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="mutton-500gms\nlarge green chilles,slit-10\nonion seeds-1tsp\ncumin seeds-1tsp\ncoriander leaves-1cu\noil- 5tbsp\nsalt to taste\nFor paste:\ntamarind 1/2cup\nchilli powder-2tsp\nturmeric powder-1/2tsp \ngaram masala-1tsp\naniseeds,roasted-1tsp\npoppy seeds-1tsp\nginger garlic paste-1tbsp\nsesame seeds roasted-1tsp\nonion-2{chopped}\ntomatoes-2{chopped}"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Marinate mutton in the ground masala and salt for 30 minute.\n2. Heat 5 tbsps oil in pressures cooker.\n3. Add cumin and onion seeds.\n4. When they pop, add the mutton with masala.\n5. Fry till masala and oil separate.\n6. Add 2 cups of hot water.\n7. Pressure cook till meat is done, about 15 minutes.\n8. Heat 2 tbsp oil in a pan and fry whole slit chillies till soft.\n9. Add to the meat and simmer.\n10. Garnish with coriander leaves and serve with rice. "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type15"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pakku"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/pakku"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="dry coriander-2tsp\ncumin seeds-2tsp\ncloves-6nos\ngarlic-8flakes\nginger paste-1tbsp\ncardamom-6nos\nonion-1{chopped]\ncinnamon-1/2inch\nnut meg powder-1/2tsp\nhing-1no[small]\nturmeric powder-1tsp\nsalt to taste\noil-3tbsp"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Marinate mutton pieces with the paste, add salt and turmeric powder and keep for 20 min.\n2. Fry in edible oil and cook for an hour in low heat.\n3. Serve hot with cooked rice or Selroti. "
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type16"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Machor Kalis"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/machorkalia"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="fish-500gm\nshrlled green peas-150gms\npeeled smallpotatoes-100gms\ncaliflower-1{BROKEN INTO FLOWERETS]\nginger-1{PIECE}garlic-4{FLAKES}\nonions-2\ngaram masala-1tsp\ncardamon powder-1/2tsp\nbetan curds-1cup\nchillipowder-2tsp\ncoriander leaves-few\nsalt to taste\noil- 4tbsp"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Clean, wash and cut the fish into slices and remove fish smell, fry to a nice almond colour in mustard oil and set aside.\n2. Grind onions, garlic and ginger to a paste.\n3. Heat 4 tbsps. Mustard oil and fry the onion paste till oil floats to the top.\n4. Add all the vegetables and fry for 5 minutes.\n5. Put in the curds, all the spices and salt and cook till the curds turn dry.\n6 Cover with hot water and cook till the vegetables are almost done.\n7. Put in the fish and continue cooking till both the vegetables and the fish are done.\n8. Serve decorated with coriander leaves."
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+          <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type17"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Murg Jugalbandi"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/murgjugalbandi"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="chicken breasts-8\nFor the Filling:\nchicken-1cup(minced\n mustard seeds-1/2tsp\ncurry leaves-1/2tsp\nred chilli powder-1/2tsp\ngaram masala-1/2tsp\ncoconut-2tsp(fresh grated)\noil-2tsp\noil for frying\nFor the curry\ncumin seeds a pinch\nsalt to taste\noil-4tsp\nginger garlic paste-2tsp\nwater-1cup\nturmeric powder-1/2tsp\nred chilli powder-1/3tsp\ncoriander powder-1tsp\nbrown onion paste-3 1/2tbsp\ntomato puree-3 1/2tbsp\nyogurt,whisked-3 1/2tbsp\ngreen peppercorns-3/4tsp\ntomato-1(diced"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Clean and wash the chicken breasts.\n2. Make deep incisions near the bone of the chicken breasts. Keep aside.\n3. Heat 2 tsp oil in a pan.\n4. Add mustard seeds and curry leaves and saute foe a few seconds.\n5. Add the mince and cook for about 5 to 6 minutes.\n6. Add salt, red chilli powder, garam masala and grated coconut.\n7. Stir cook for a few minutes.\n8. Remove from heat and keep aside to cool.\n9. Stuff the chicken breasts with the prepared mixture.\n10. Heat oil in a pan.\n11. Add 2 chicken breasts at a time and saute till golden brown on both sides.\n12. Remove ad keep aside.\n13. For the curry, heat oil in a pan, add cumin and saute for a few seconds.\n14. Add ginger garlic paste and saute for 1 minute.\n15. Add salt, red chilli powder, turmeric powder and coriander powder.\n16. Cook for another minute.\n17. Stir in the yogurt and tomato puree.\n18. Stir fry on medium heat.\n19. Add the brown onion paste and cook till the oil leaves the sides of the pan.\n20. Add water and bring to a boil.\n21. Simmer and cook till the curry reduces to three fourths of the original quantity\n22. Add the chicken pieces to the curry and allow to cook for 10 to 12 minutes.\n23. Remove from heat.\n24. Carefully lift the chicken pieces from the curry and place on a serving platter.\n25. Garnish with tomato dices and green peppercorns."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type18"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Machhi Gravy"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/machhigravy"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="white fish-500gms\ncoconut milk-1/2cup \ntamarind paste-2tbsp\ngreen chilli-1\nasafoetida powder-1/2tsp\nred chilli powder-2tsp\ngarlic flakes-2\nturmeric powder-1/2tsp\ngarlic paste-2tsp\noil-1tbsp\nsalt to taste"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1. Clean the fish slices thoroughly and wash them.\n2. Now put the slices in a bowl and add the tamarind paste, garlic paste, turmeric powder, red chilly powder, coriander powder and salt to taste. 3. Mix all these ingredients and let it marinate for half an hour at least.\n4. Crush the garlic flakes and set it aside.\n5. Now take a pan and heat some oil.\n6. When the oil is very hot put in the crushed garlic, asafoetida, chopped green chilly and sate briefly.\n7. Now add the marinated fish slices along with the marinade, sprinkle a little water is required.\n8. Now cover, simmer and cook for 20 minutes or till the fish is ¾th cooked.\n9. Now pour in the coconut milk slowly and bring to boil. Again simmer, cover and cook for another three minutes\n10. The fish should be ready and it must be firm. Remove from flame and serve with rice. "
+                     android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type19"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pan Rools"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/panrools"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Plain flour-2cups\nMilk-1cup\nBread crumbs-1cup\nButter-1/4cup\nOnion-1\nPotato-2\nGarlic-3pods\nChilli powder-2tsp\nGaram masala powder-1tsp\nCumin powder-1tsp\nCoriander powder-1rsp\nMeat-1/2kilo{minced}\nEggs-4\nSalt to taste-\nOil-as needed\nGinger-a small piece"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Cut onion, garlic, ginger finely.\n2.Remove skin of potato and cut into small pieces.\n3.Heat oil in a frying pan.\n4.Add onion, garlic, ginger and fry for a few minutes.\n5.Add potato, minced meat, chilli powder, garam masala powder, cumin powder, coriander powder, salt, water and cook.\n6.When potato and meat is cooked and contents thick , switch off the stove.\n7.Mix 3 eggs, flour, milk, butter to a thin batter.\n8.Heat a flat frying pan.\n9.Take a ladle of batter, spread it thin, cook on one side and set aside.\n10.Repeat the process till all batter is used.\n11.Place a spoon of mince mix at one end of the pancake, roll, seal the edges and set aside.\n12.Repeat the process.\n13.Heat oil in a frying pan.\n14.Beat an egg and set aside in a bowl.\n15.Dip the pan roll in egg, roll in bread crumbs and fry till golden."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type20"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pudina Chicken(Mint)"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/pudinachicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken-300gms\nsmall bunch mint-1{pudina}\nGinger Garlic paste-1tsp\nGreen chillies-4\nOil-3tbsp\nOnion-1\nCurd-1cup\nsalt to taste"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Clean the chicken and cut to medium sized pieces\n2.Grind green chilli, ginger garlic paste, curd and pundina to a fine paste; add salt to the mixture\n3.Mix chicken with this mixture and keep aside for 20 minutes.\n4.After 20 minutes, pressure cook the chicken with some water up to 2 whistles.\n5.Heat oil in a kadai, add onion and fry till it becomes half brown.\n6.Now add the chicken with the excess pudina mixture water to the kadai.\n7.Fry until the water evaporates.\n8.It is ready to serve with chappati or as a starter."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

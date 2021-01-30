@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"  >
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Cooking Recpies"
+        android:background="#40A627"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+	<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/text"
+        android:background="@drawable/bg">
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type1"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hawaiin Chicken Sandwich"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/hawaiinchickensandwich"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Bread Roll Or Croissant 1 Numbers \nCelery 15 Grams \nPineapple 30 Grams \nMayonaise 20 Grams \nChicken Cooked 100 Grams \nLettuce 1 Leaf \nShredded Cabbage 15 Grams"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="mix chicken,pineapple,celery ,with mayonasie and put it on bed of lettuce and bread "
+                     android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+       	 <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type2"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Mushroom Fritters"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/mushroomfritters"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Parsley 1 Tablespoons \nSpring Onions 2 Tablespoons \nPepper Powder 1 Teaspoons \nSalt  To Taste \nAll Purpose Flour 30 Grams \nOil  3 Tablespoons \nMushroom Chopped 1 Cup"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="mix chicken,pineapple,celery ,with mayonasie and put it on bed of lettuce and bread "
+                     android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type3"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Turkey Burger"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/turkeyburger"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Turkey Mince 1 Lbs\nCream 2 Tablespoons \nGreen Chilli 4 Numbers \nCoriander Leaves 1 Bunch \nSalt as per taste  \nChopped Onion 1/2 Cup \nGarama Masala pinch Pinch \nCumin Seeds pinch Pinch \nPepper 1 Teaspoons \nGarlic 3 Numbers \nFenal pinch"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Take turkey mince in a bowl add cream ( optional) green chillis chopped finely,coriander leaves,salt,chopped onions,garam masala mix well.In ding chick add garlic,pepper,cumin seeds,fenal add this to turkey mixture mix well.\n2.Take a pan add little oil to it and make a small round dumpling as burger shape cook till it changes its color to brown if you want you can close the burger and cook.use this in  burger in between the burger rolls."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type4"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Turkey Tandoori"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/turkeytandoori"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Turkey Legs 4 Numbers \nCurd 1 Cup \nRed Chill Powder 1 Teaspoons \nTurmuric picnch Pinch \nCoriander Powder 1 Teaspoons \nCumin Powder 1/2 Teaspoons \nGinger Garlic Paste 1 Teaspoons \nLemon Juice 1 Numbers \nGarama Masala pinch  \nRed Coulou pinch Pinch"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Take turkey legs slit the legs so that marination goes in \n2.Take a pan add curd, red chill powder, turmeric,coriander powder,cumin powder,ginger garlic paste,kasturi methi powder,lemon juice,garam masala powder and mix well and some red colour and mix again.\n3.Now marinate this to turkey legs leave it for 30min a side." 
+					android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type5"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rich Peanut Butter Cookies"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/richpeanutbuttercookes"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="All Purpose Flour 2 Cup \nShortening 1 Cup \nGranulated Sugar 1 Cup \nPeanut Butter 1 Cup \nBrown Sugar 1 Cup \nEggs 2 Numbers \nSoda 2 Teaspoons \nVanilla Essence 1 Teaspoons \nSalt 1/2 Teaspoons"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Cream together shortening, sugar, eggs and vanilla essence. Fold in peanut butter and sieve the dry ingredients. Stir well. \n2.Spoon mixture onto ungreased cooky sheet. Use the back of the fork to make crisscrosses on each. \n3.Base in moderately slow oven 350ºF for about 10 mins."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type6"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="X-Mas Porridge"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chrismasporridge"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Granulated Sugar  To Taste \nBoiling Water 2 Quart \nButter 2 Tablespoons \nSalt 1 Teaspoons \nGranulated Sugar 2 Tablespoons \nMilk 5 Cup \nBlanched Whole Almond 1 Numbers \nRice 1 Cup \nCinnamon Or Grated Almonds 5 Numbers \nCold Milk  To Taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Add washed and drained rice to boiling water. \n2.Again bring to a boil and cook,uncovered, 1 minute. \n3.Drain rice thoroughly ; add butter. \n4.Add rice, salt and sugar to milk in top of double boiler. \n5.Cover and cook over gently boiling water until rice is tender and milk is absorbed, about 2 hours. "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type7"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Strawberry Pie"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/strawberrypie"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Sugar 1 Cup\nFlour - All-purpose 1/4 Cup \nSalt 1/8 Teaspoons \nStrawberries - Washed and Hulled 4 Cup \nButter 2 Tablespoons \nPastry For Single Crust Pie  To Taste \nWhipped Cream For Decoration  To Taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Combine sugar with flour and salt. \n2.Toss lightly with the strawberries. \n3.Fill the baking dish with the fruit mixture and dot with butter. \n4.Top with the pastry which has been rolled out on pastry cloth to size 1 larger all around than top of baking dish. \n5.Fold edges of pastry under and press firmly to rim of dish. \n6.Flute edges and cut gashes in pastry to allow steam to escape. \n7.Bake at 425 degrees for 25 minutes or until crust is browned. \n8.Serve slightly warm with whipped cream or ice cream."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type8"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Almond Bark"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/almondbark"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Whole Blanched Almonds 1 Cup \nButter Or Margarine 1 Teaspoons \nBars Of White Chocolate 7-8 Numbers"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Put blanched almonds and butter in a micro proof pie plate. \n2.Cook on High for 4 to 5 1/2 minutes, or until toasted. Stir twice during cooking. Set aside. \n3.Put white chocolate in large micro proof mixing bowl and cook on High for 2 1/2 to 3 minutes, or until softened and remove. \n4.To this melted white chocolate, stir in almonds and pour on a waxed paper lined on baking sheets. \n5.Spread to desired thickness and refrigerate until set."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type9"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Fish Manchurian"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/fishmanchurian"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Fish Pieces 250 Grams \nSpring Onion Finely Chopped 1 Bunch \nGinger Finely Chopped 2 Teaspoons \nGarlic Finely Chopped 1 Teaspoons \nPlain Flour 1/4 Cup \nCornflour 3 Tablespoons \nRed Chilli Powder 1/4 Teaspoons \nRed Chillies, Dry 2 Numbers \nOil 3 Tablespoons \nWater 1 1/2 Cup \nMilk 1 Tablespoons"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Boil the fish for 10 minutes in plenty of water, to which a tbsp. of milk has been added.\n2.Drain and pat dry on a clean cloth.\n3.Make thin batter out of flour and 2 tbsp.cornflour, adding 1/4 tsp. each of ginger and garlic and red chilli powder and salt to taste.\n4.Dip the pieces in the batter one by one and deep fry in hot oil.\n5.Keep aside.\n6.In the remaining oil, add remaining ginger, garlic and crushed red chilli and fry for a minute.\n7.Add the salt and spring onions.\n8.Stir fry for a minute.\n9.Add 1 1/2 cups water and bring to a boil.\n10.Add 1 tbsp. cornflour to 1/4 cup water and dissolve well.\n11.Gradually add to the gravy and stir continuously till it resumes boiling.\n12.Boil till the gravy becomes transparent. Add florettes and soya sauce.\n13.Boil for two more minutes and remove.\n14.Serve hot with noodles or rice."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type10"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Onion-Potato Soup"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/onionpotatosoup"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Piece Ginger 1/2 Numbers \nMedium Potato 1 Numbers \nSmall Spring Onion 1 Numbers \nSugar 1/2 Teaspoons \nSalt And Pepper  To Taste \nLarge Onion 1 Numbers \nButter 1 Teaspoons \nGarlic 2 Clove"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chop the spring onion finely and keep aside. Crush both garlic and ginger. \nChop the potato and onion into large pieces. Pressure cook till soft. \nBlend in a mixer till smooth. Sieve \nIn a pan heat the butter. Add the ginger and garlic and fry till light brown. \nAdd the chopped spring onion and stock (prepared above). \nAdd salt, pepper and chili sauce as desired.\nServe steaming hot with soup sticks. "
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type11"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Crock Pot Roast"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/crockpotroast"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 (4 -5 lb) beef roast, any kind\n1 (1 1/4 ounce) package  brown gravy mix, dry   \n1 (1 1/4 ounce) package  dried Italian salad dressing mix   \n1 (1 1/4 ounce) package  ranch dressing mix, dry   \n1/2 cup water"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Place beef roast in crock pot.\n2 Mix the dried mixes together in a bowl and sprinkle over the roast.\n3 Pour the water around the roast.\n4 Cook on low for 7-9 hours."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type12"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Creamy Cajun Chicken Pasta"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/creamycajunchickenpasta"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 boneless skinless chicken breast halves, cut into thin strips\n4 ounces linguine, cooked al dente \n2 teaspoons cajun seasoning(your recipe, Cajun Seasoning Mix or store-bought)\n2 tablespoons butter \n1 thinly sliced green onion\n1 -2 cup heavy whipping cream\n2 tablespoonschopped sun-dried tomatoes\n1/4 teaspoonsalt\n1/4 teaspoon dried basil\n1/8 teaspoon ground black pepper\n1/8 teaspoon garlic powder\n1/4 cup grated parmesan cheese"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Place chicken and Cajun seasoning in a bowl and toss to coat.\n2 In a large skillet over medium heat, sauté chicken in butter or margarine until chicken is tender, about 5 to 7 minutes.\n3 Reduce heat add green onion, heavy cream, tomatoes, basil, salt, garlic powder, black pepper and heat through.\n4 Pour over hot linguine and toss with Parmesan cheese"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type13"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Great Meatloaf"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/greatmeatloaf"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 1/2 lbs ground beef(ground shoulder roast is good)\n1 slice bread(broken or chopped finely)\n1 egg \n1 small vidalia onions or 1 small type sweet onion, finely chopped \n1 teaspoon table salt \n1/4 teaspoon black pepper \n4 tablespoons ketchup \n1/2-2/3 cup whole milk or 1/2-2/3 cup half-and-half \nSauce \n4 tablespoons apple cider vinegar\n 2 -4 tablespoons dark brown sugar, packed firm(to taste)\n1/2 cupketchup"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Meatloaf: Combine meat loaf ingredients and place into a loaf baking dish.\n2 Smooth out top.\n3 Sauce: Combine sauce ingredients and pour on top and sides of meatloaf.\n4 Bake at 350°F about 1 hour to 1 hour 15 minutes or until done.\n5 ENJOY!\n6 *The addition of 1 or 2 teaspoons of Kitchen Bouquet® makes this recipe very good.\n7 **Recipe should be'plump' from the addition of the milk or Half and Half.\n8 It should NOT be runny.\n9 ***A second batch of sauce served hot is good to serve with the meatloaf.\n10 Nita's Note: I note that some of you are using game meat such as deer -- Deer is a very DRY meat. It is wise to HAVE some fat added to the deer -- especially to ground deer. Maybe 25 % fat, ( I recommend 1 lb of ground venison, and 1/2 lb of deer sausage for fat content), otherwise your results will be poor. I don't know about some of the other game meat some are using. Please consult and expert. The recipe is delicious as it stands! Enjoy! Nita Holleman."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type14"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Beer Bread"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/beerbread"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3 cups flour (sifted)\n3 teaspoons baking powder(omit if using Self-Rising Flour)\n1 teaspoon salt(omit if using Self-Rising Flour)\n1/4 cup sugar\n1 (12 ounce) can beer\n1/2 cup melted butter (1/4 cup will do just fine)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Preheat oven to 375 degrees.\n2 Mix dry ingredients and beer.\n3 Pour into a greased loaf pan.\n4 Pour melted butter over mixture.\n5 Bake 1 hour, remove from pan and cool for at least 15 minutes.\n6 UPDATED NOTES: This recipe makes a very hearty bread with a crunchy, buttery crust. If you prefer a softer crust (like a traditional bread) mix the butter into the batter instead of pouring it over the top.\n7 Sifting flour for bread recipes is a must-do. Most people just scoop the 1 cup measure in the flour canister and level it off. That compacts the flour and will turn your bread into a 'hard biscuit' as some have described. That's because they aren't sifting their flour! If you do not have a sifter, use a spoon to spoon the flour into the 1 cup measure. Try it once the 'correct' way and you will see an amazing difference in the end product.\n8 I have had many email from you kind folks about using non-alcoholic beverages instead of beer. That is fine to do but I highly recommend adding a packet of Dry Active Yeast or 2 teaspoons of Bread (Machine) Yeast so that you get a proper rise.\n9 The final result should be a thick, hearty and very tasteful bread, NOT A BRICK! ;).\n10 Thank you all for the incredibly nice comments and those of you who left a bad review - learn to sift sift SIFT! You will be amazed at the results you get."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type15"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Classic Baked Macaroni and Cheese"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/fanniefarmersclassicbakedmacaronicheese"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 (8 ounce) packagemacaroni\n4 tablespoons butter\n4 tablespoons flour\n1 cup milk\n1 cup cream\n1/2 teaspoon salt\nfresh ground black pepper, to taste\n2 cups cheddar cheese, shredded good quality \n1/2 cup breadcrumbs, buttered"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Preheat oven to 400°F.\n2 Cook and drain macaroni according to package directions; set aside.\n3 In a large saucepan melt butter.\n4 Add flour mixed with salt and pepper, using a whisk to stir until well blended.\n5 Pour milk and cream in gradually; stirring constantly.\n6 Bring to boiling point and boil 2 minutes (stirring constantly).\n7 Reduce heat and cook (stirring constantly) 10 minutes.\n8 Add shredded cheddar little by little and simmer an additional 5 minutes, or until cheese melts.\n9 Turn off flame.\n10 Add macaroni to the saucepan and toss to coat with the cheese sauce.\n11 Transfer macaroni to a buttered baking dish.\n12 Sprinkle with breadcrumbs.\n13 Bake 20 minutes until the top is golden brown.\n14 (You can also freeze this recipe in zip-lock bags for later use - once you have mixed the macaroni along with the cheese sauce allow to cool to room temperature before adding to your freezer - I generally pull it out the night before and allow macaroni and cheese to reach room temperature; I then add the macaroni and cheese to a buttered baking dish, sprinkle with bread crumbs and then bake for 20 to 30 minutes, until golden brown on top and bubbling."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type16"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Crock Pot Whole Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/crockpotwholechicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4 teaspoons salt (per recipe reviews, 2 tsp is better)\n2 teaspoons paprika\n1 teaspoon cayenne pepper   \n1 teaspoon onion powder   \n1 teaspoon thyme\n1 teaspoon white pepper\n1/2 teaspoon garlic powder   \n1/2 teaspoon black pepper   \n1 large roasting chickenn(with pop-up timer if possible)\n1 cup chopped onion(optional)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="\n1 In a small bowl, combine the spices.\n2 Remove any giblets from chicken and clean chicken.\n3 Rub spice mixture onto the chicken.\n4 Place in resealable plastic bag and refrigerate overnight. (I usually skip this step because I'm always in a hurry).\n5 When ready to cook, put chopped onion in bottom of crock pot.\n6 Add chicken. No liquid is needed, the chicken will make it's own juices.\n7 Cook on low 4-8 hours.\n8 Note:highly recommend a pop-up timer in the chicken because some crock pots cook faster/slower than others (my crock pot cooks this recipe in 4-5 hours)."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type17"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Delicious Chicken Pot Pie"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/deliciouschickenpotpie"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1  cup potato, diced \n1 cup onion, diced   \n1 cup celery, diced   \n1 cup carrot, diced   \n1/3 cup  melted margarine   \n1/2 cup all-purpose flour   \n2 cups chicken broth   \n1 cup half-and-half   \n1 teaspoon salt   \n1/4 teaspoon pepper   \n4  cups chicken, cooked and chopped \n2 pie crusts (either store bought or your own recipe)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Preheat oven to 400°F.\n2 Saute onion, celery, carrots and potatoes in margarine for 10 minutes. \n3 Add flour to sauteed mixture, stirring well, cook one minute stirring constantly.\n4 Combine broth and half and half. \n5 Gradually stir into vegetable mixture.\n6 Cook over medium heat stirring constantly until thickened and bubbly.\n7 Stir in salt and pepper; add chicken and stir well.\n8 Pour into shallow 2 quart casserole dish and top with pie shells.\n9 Cut slits to allow steam to escape.\n10 Bake for 40-50 minutes or until pastry is golden brown and filling is bubbly and cooked through."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type18"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Southern Fried Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/friedchicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2  lbs  cut-up chicken\nSauce mixture\n4eggs   \n1/3 cup water   \n1  cup  hot sauce (I use Louisiana Hot Sauce, Tabasco might be hotter)   \nSeasoning blend\n1 1/2 teaspoons salt   \n1 1/4 teaspoons fresh ground black pepper   \n1/4 teaspoon garlic powder   \nDredging mixture\n2  cups all-purpose flour   \n1  tablespoon baking powder\n1/4 teaspoon salt"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Heat peanut oil in a large deep pot to 350°F (do not fill more than half full--you don't want a hot-oil spill-over accident!).\n2.For sauce mixture: in a medium-sized bowl, beat the eggs with the water.\n3.Add hot sauce and whisk together well.\n4.Pour this mixture into a large plastic zip-top bag.\n5.For seasoning mixture: In a small bowl, combine 1 teaspoon salt, 1/4 teaspoon freshly ground black pepper and 1/4 teaspoon garlic powder.\n6.For dredging mixture: In a another bowl, mix flour, baking powder and 1/4 teaspoon salt.\n7.Rinse and pat dry chicken pieces with a paper towel.\n8.Cut breast pieces in half across ribs.\n9.Sprinkle chicken generously on both sides with seasoning blend.\n10.Drop a few chicken pieces of chicken into bag of sauce mixture and squish around to coat thoroughly.\n11.One piece at a time, roll chicken in flour mixture and drop into hot oil.\n12.Don't crowd chicken pieces--I cook about half the chicken at a time.\n13.Fry chicken until brown and crisp.\n14.Drain on paper toweling.\n15.Dark meat will take about 14 minutes, white meat about 10 minutes.\n16.Remember smaller pieces cook faster than the larger ones.\n17.You can check for doneness by piercing to the bone in the thickest part with a fork.\n18.If the juices run clear, it is done."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type19"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Barbecue Ribs"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/barbecueribs"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4 lbs pork ribs\n3/4 cup light brown sugar \n1 teaspoon hickory smoke salt \n1 tablespoon paprika\n1 tablespoon garlic powder\n1/2 teaspoonground red pepper(optional)\n2 cups of your favorite barbecue sauce(mine is Sweet Baby Ray)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Preheat oven to 300 degrees f.\n2 Peel off tough membrane that covers the bony side of the ribs.\n3 Mix together the sugar and spices to make the rub.\n4 Apply rub to ribs on all sides.\n5 Lay ribs on two layers of foil, shiny side out and meaty side down.\n6 Lay two layers of foil on top of ribs and roll and crimp edges tightly, edges facing up to seal.\n7 Place on baking sheet and bake for 2-2 1/2 hours or until meat is starting to shrink away from the ends of the bone.\n8 Remove from oven.\n9 Heat broiler.\n10 Cut ribs into serving sized portions of 2 or 3 ribs.\n11 Arrange on broiler pan, bony side up.\n12 Brush on sauce.\n13 Broil for 1 or 2 minutes until sauce is cooked on and bubbly.\n14 Turn ribs over.\n15 Repeat on other side.\n16 Alternately, you can grill the ribs on your grill to cook on the sauce."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type20"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Basil Cream Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/basilcreamchicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 lb boneless skinless chicken breast,cubed\n1 cup minced onion \n3/4 lb fresh mushrooms, sliced\n2 tablespoons oil\n3 tablespoons  butter\n3 tablespoons flour\n2 cups chicken broth \n1 tablespoon chicken bouillon \n1 cup whipping cream\n2 tablespoons minced fresh basil\n1/4 teaspoon pepper"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Saute chicken, onions, and mushrooms in oil for 4 minutes.\n2. In lg saucepan, melt butter; stir in flour until smooth.\n3. Add chicken broth, boullion and cream.\n4. Stir in basil and pepper.\n5. Bring to a boil; cook and stir for 2 minutes.\n6. Combine with the chicken mixture.\n7. Serve over fettuccini."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type21"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Baked Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bakedchicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4 chicken breasts, with bone and skin\n1/4 cup butter, melted \n1 -2  teaspoon Season-All salt (I use McCormick's)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Preheat oven to 400°F.\n2.Spray a shallow baking dish with non-stick cooking spray.\n3.Rinse chicken breast under cool running water.\n4.Pat chicken dry with paper towels.\n5.Place chicken in dish.\n6.Brush the melted butter over the chicken, using all the butter.\n7.Sprinkle with seasoned salt.\n8.Bake for 50-60 minutes or until cooked through.\n9.~NOTE~Chicken takes only 50 minutes in my oven.\n10.Don't over cook, as they might turn out tough."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type22"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="The Blue Mill Tavern Loosemeat Sandwich"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bluemilltavernloosemeatsandwich"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 lb of real good ground chuck or 1 lb ground beef round or 1 lb ground sirloin\n1 tablespoon fat like lard (if meat is round or sirloin) or 1 tablespoon Crisco(if meat is round or sirloin)\n2 teaspoons salt, just enough to lightly cover bottom of your skillet\n1 onion, chopped fine\n1 tablespoon prepared yellow mustard\n1 tablespoon vinegar\n1 tablespoon sugar\n water, to cover\nsalt and pepper, to taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Get out a cast iron skillet-they are the best for loosemeats-or other kind if you have no iron skillet.\n2 Melt fat over medium heat and lightly salt bottom of skillet.\n3 Break ground beef up in skillet and start crumbling it with the back of a wooden spoon-this is very important-the meat must end up being cooked up into small crumbles.\n4 Add chopped onion while browning meat.\n5 Keep working with the back of spoon to break up meat.\n6 When meat is browned, drain off any fat and return meat to skillet.\n7 Add mustard, vinegar, sugar, and just enough water to barely cover meat in the pan.\n8 Cook, at a simmer, till water is all cooked out-between 15-20 minutes.\n9 Adjust salt and pepper to taste.\n10 Heat your hamburger buns-they're traditionally steamed for loosemeats-I like mine toasted lightly-do it the way you like it.\n11 When buns are warm, put yellow mustard on them and add some dill pickle slices-I put on lots!\n12 *If you start changing this recipe and using things like olive oil for the fat and Dijon or honey mustard for the yellow mustard, you will not get the traditional yummy taste of a loosemeat sandwich.\n13 Likewise, don't add any liquid smoke or Worcestershire sauce.\n14 Make them just like this the first time so you can sample the simplicity of this famous Midwestern treat.\n15 If you want to start making changes after that by all means do so but I'd like you to taste the original recipe at least once.\n16 Serve with homemade potato salad and chips or with my Easy Cheesy Potato recipe."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type23"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Brown Sugar Meatloaf"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/brownsugarmatloag"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1/2 cup brown sugar, packed\n1/2 cup ketchup\n1 1/2 lbs lean ground beef\n3/4 cup milk\n2 eggs\n1 1/2 teaspoons salt\n1/4 teaspoon ground black pepper\n1 small onion, chopped\n1/4 teaspoon ground ginger\n3/4 cup saltine crumbs, finely crushed"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Preheat oven to 350 degrees.\n2 Lightly grease a 5x9 inch loaf pan.\n3 Press the brown sugar in the bottom of the prepared loaf pan and spread the ketchup over the sugar.\n4 In a mixing bowl, mix thoroughly all remaining ingredients and shape into a loaf.\n5 Place on top of the ketchup.\n6 Bake in preheated oven for 1 hour or until juices are clear."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type24"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chicken Noodle Soup"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chickennoodlesoup"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2  teaspoons butter\n1  cup  sliced celery   \n1  cup  chopped carrot   \n1/2 cup  chopped onion   \n1  small potato, diced   \n1  teaspoon thyme   \n1  teaspoon poultry seasoning   \n4 (14 ounce) cans chicken broth   \n2  teaspoons chicken bouillon   \n4  ounces  egg noodles   \n2  cups  cooked chicken"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Melt butter in large pot.\n2.Sauté the celery, carrot and onion for 2 minutes.\n3.Add potato, thyme, poultry seasoning, chicken broth and bouilion.\n4.Bring to a boil.\n5.Add noodles and chicken and cook on low for 20 minutes.\n6.Sprinkle with parsley."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type25"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Crock Pot Cream Cheese Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/crockpotcreamcheesechicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3  lbs chicken pieces\n1 (2/3 ounce) package  Italian salad dressing mix\n4  tablespoons  melted butter (divided)\n1  small onion, chopped\n1   garlic clove, chopped \n1 (10 1/2 ounce) can  cream of chicken soup \n8  ounces cream cheese   \n1/2 cup chicken brot"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.Place chicken pieces in crock pot and sprinkle Italian seasoning over chicken. Sprinkle with 2 tablespoons melted butter.\n2.Cook on low for 4-6 hours.\n3.Melt 2 tablespoons butter in a sauce pan and saute onion and garlic. Add Cream of Chicken Soup, cream cheese, and chicken broth. Stir until smooth.\n4.Add this mixture to crock pot and cook on low for an additional hour."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type26"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Oven Fried Eggplant "
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/ovenfriedeggplant"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1/2 cup fat-free mayonnaise\n1 tablespoon minced onion\n1 lb unpeeled eggplant, sliced-about 12(1/2 inch slices)\n1/3 cup fine dry breadcrumb\n1/3 cup grated parmesan cheese\n1/2 teaspoon dried Italian seasoning\nvegetable oil cooking spray"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Combine first 2 ingredients, stir well.\n2 Spread evenly over both sides of eggplant slices.\n3 Combine breadcrumbs, cheese, and Italian seasoning in a shallow bowl; dredge eggplant in breadcrumbs mixture.\n4 Place eggplant on a baking sheet coated with cooking spray.\n5 Bake@ 425 degrees for 12 minutes.\n6 Turn eggplant over; and bake an additional 12 minutes or until golden."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type27"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Scalloped Potatoes"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/scallopedpotatoes"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4 cups thinly sliced potatoes\n3 tablespoons butter\n3 tablespoons flour\n1 1/2 cups milk\n1 teaspoon salt\n1 dash cayenne pepper\n1 cup grated sharp cheddar cheese\n1/2 cup grated cheese, to sprinkle on to paprika"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 In a small sauce pan, melt butter and blend in flour.\n2 Let sit for a minute.\n3 Add all of cold milk, stirring with a whisk.\n4 Season with salt and cayenne.\n5 Cook sauce on low until smooth and boiling, stirring occasionally with a whisk.\n6 Reduce heat and stir in cheese.\n7 Place a half of the sliced potatoes in a lightly greased one quart casserole dish.\n8 Pour half of cheese sauce over potatoes.\n9 Repeat with second layer of potatoes and cheese sauce.\n10 Sprinkle the remaining cheese on top.\n11 Top with some paprika for color.\n12 Bake uncovered for about 1 hour at 350°F."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         
+    </RelativeLayout>
+</RelativeLayout>

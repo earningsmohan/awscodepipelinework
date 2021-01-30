@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"  >
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Cooking Recpies"
+        android:background="#40A627"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+	<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/text"
+        android:background="@drawable/bg">
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type1"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tibetan Lentil Soup"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/tibetanlentilsoup"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 1/2 cups dried lentils, rinsed\n6 cups water\n1 tablespoon vegetable oil\n1 1/2 cups onions, chopped\n2 cloves garlic, minced\n1 fresh chili pepper\n1 carrot, peeled and diced\n1 potato, diced\n2 teaspoons ground coriander\n3 cups undrained canned tomatoes\n1 tablespoon fresh cilantro, chopped\n1 1/2 teaspoons salt\n2 teaspoons cumin"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Bring the lentils and water to a boil, then reduce the hear, cover and simmer until tender- about 20 minutes Meanwhile, heat oil and saute the onions, garlic and chile for 5 minutes.\n2 Add the carrots, potatoes, coriander and cumin and saute for another minute, stirring to prevent sticking.\n3 Remove from the heat and set aside When lentils are tender, coarsely chop the tomatoes right in the can and stir them into the soup pot.\n4 Add the chopped cilantro, salt, and sauteed vegetables.\n5 Cover and simmer for about 10-15 minutes, until all of the vegetables are tender."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type2"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tibetan Greens With Tofu (Tse Tofu)"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/tibetangreenswithtofu"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 bunch swiss chard\n2 green onions, choppe\n1/2 teaspoon paprika\n2 garlic cloves, chopped\n1/2 inch fresh ginger, chopped\n2 tablespoons soy sauce\n4 (12 ounce) blocks firm tofu, cut into 1-inch cubes\n1/4 cup green peas\n1 tablespoon oil\n1 garlic clove, chopped\n1/4 teaspoon ground black pepper"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Wash the Swiss chard and tear it into pieces, removing the stems.\n2 Heat a little oil in a frying pan, and stir-fry the green onions, along with the paprika, ginger, and 2 cloves of garlic.\n3 Stir in the soy sauce, tofu, and peas.\n4 In a separate frying pan, heat a tablespoon of oil until it's very hot.\n5 Stir in the black pepper.\n6 Add the Swiss chard, still slightly wet, and toss to coat with the oil and pepper.\n7 Cover the pan and let it steam for 30 seconds.\n8 Spread the greens on a serving platter and pour the tofu mixture on top."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type3"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Cardamom and Saffron Pilau: Spiced Indian Rice"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/kashmirichicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 lb white basmati rice\n2 tablespoons oil\n2 onions, peeled and diced\n4 garlic cloves, peeled and crushed\n1 inch fresh gingerroot, peeled and finely diced\n2 teaspoons cumin seeds\n1 1/2 lbs boneless chicken or 1 1/2 lbs boneless chicken breasts, cubed\n1 teaspoon saffron strand\n1/2 pint boiling water\n6 cardamom pods, bruisedv4 tablespoons chopped fresh mint\n2 teaspoons garam masala\n1 cinnamon stick\n8 ounces skinned and chopped tomatoes or 8 ounces tinned chopped tomatoes\n2 ounces sultanas\nsalt\npepper\n2 ounces blanched almonds, to"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Rinse the basmati rice several times in cold water and drain in a colander - leave to dry.\n2 Heat half of the oil (1 tablespoon) in a large pan and add half of the onion (1 onion), the garlic, ginger and cumin seeds. Fry them over a gentle heat for about 5 minutes.\n3 Add the chicken pieces and brown them - turning them regularly to achieve a good colour all over.\n4 Add the saffron, boiling water, cardamom pods, mint, garam masala and cinnamon stick. Bring it all to the boil and then cover, reduce the heat and simmer for 25 to 30 minutes, until the chicken is tender.\n5 Transfer all the contents to a bowl and rinse out the pan.\n6 Add the remaining oil and onion to the pan and fry until the onion is lightly coloured. Add the rice and stir it well, cook for about 2 to 3 minutes until the rice is opaque.\n7 Add the chicken mixture, tomatoes and sultanas - then season to taste with salt and pepper. Stir gently, then shake the pan to level the ingredients.\n8 Add sufficient boiling water to come about 3/4' above the rice mixture. Cover with a tight fitting lid and cook gently over a low heat for 20 to 25 minutes, until the rice is tender and the liquid has all been absorbed.\n9 Discard the cinnamon stick and transfer to a warm serving dish, sprinkle with the toasted almonds and serve immediately."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type4"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tibetan Potato Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/tibetanpotatocurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6 cups potatoes (avoid russet potatoes as they don't hold up well)\n1/2 teaspoon fenugreek seeds\n2 tablespoons oil\n1 large onion, coarsely chopped\n3 tablespoons ginger, minced\n4 peeled garlic cloves, minced\n1 teaspoon coriander\n1 1/2 teaspoons cumin\n2 teaspoons curry powder\n1 teaspoon turmeric\n2 tomatoes, coarsely chopped\n1 -2 dried hot pepper, left whole\nwater, as needed"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Precook the potatoes in water (or in the microwave) until almost, but not quite, done. Drain thoroughly.\n2 While the potatoes are cooking, saute the fenugreek seed in the oil on medium heat until light brown, being careful not to burn them.\n3 Add the onion and continue cooking for five minutes. Add the ginger and garlic and cook another five minutes. Add the spices and saute briefly to release their flavors. Add the tomato, the dried whole peppers, and a little water. Simmer until the flavors meld together, about 30 minutes.\n4 Gently add the potatoes, stir, and reduce heat. Cook until potatoes are tender, adding water if the sauce gets too dry. If the sauce is too runny, simply crush one of the potatoes to thicken it."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type5"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Murgh Makhani"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/murghmakhani"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="BUTTER CHICKEN\n800 g boneless skinless chicken thighs, cut into 3-4cm pieces\n2 garlic cloves, peeled and finely crushed\n2 cm ginger, peeled and finely grated\n1/2 teaspoon fine sea salt\n1/2 teaspoon hot chili powder\n1 1/2 tablespoons lemon juice\n75 ml natural yoghurt\n1/2 teaspoon garam masala\n1/2 teaspoon ground turmeric\n1 teaspoon ground cumin\n1 -2 tablespoon vegetable oil, for brushing\nSAUCE\n1 1/2 tablespoons ghee or 1 1/2 tablespoons melted unsalted butter\n2 garlic cloves, peeled and finely chopped\n2 cm ginger, peeled and finely chopped\n1 cardamom pod, seeds lightly crushed\n2 cloves\n1 teaspoon ground coriander\n1 teaspoon garam masala\n1 teaspoon ground turmeric\n1 teaspoon hot chili powder, to taste\n1/2 teaspoon ground fenugreek\n275 ml tomato puree\n1 tablespoon lemon juice\n40 g unsalted butter\n100 ml double cream\n1 tablespoon chopped coriander, to garnish"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Place the chicken in a bowl with the garlic, ginger, salt, chilli powder and lemon juice. Mix, cover with cling film and chill for 30 minutes. Mix together the yoghurt, garam masala, turmeric and cumin and add to the chicken, making sure that each piece is well coated with the mixture. Cover again and chill for 3-4 hours.\n2 Preheat the oven to 180°C/Fan 160°C/Gas 4. Put the marinated chicken pieces on a grill rack set on a baking tray and bake for 8-10 minutes. Brush the chicken pieces with a little oil and turn them over. Bake for another 10-12 minutes until just cooked through.\n3 For the sauce, heat the ghee or butter in a pan and add the garlic and ginger. Fry for a minute or so then add the cardamom, cloves, coriander, garam masala, turmeric, fenugreek and chilli powder. Stir well and fry for 1-2 minutes until they give off a lovely aroma.\n4 Stir in the tomato puree and lemon juice and cook for another couple of minutes. Add the chicken pieces to the sauce and stir well to coat. Finally, add the butter and cream and stir continuously until the butter has melted and the sauce is smooth.\n5 Taste and adjust the seasoning. Transfer to a warm bowl and serve hot, garnished with chopped coriander."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type6"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tibetan Momo (A Dim Sum Dumpling from Tibet)"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/tibetanmomo"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 medium onions, finely chopped\n1 lb yak meat, finely chopped (or ground beef bison or chicken)\n2 -5 cm minced ginger or 2 -5 cm galangal\n2 tablespoons soy sauce\n3 minced garlic cloves\nsalt\n4 cups flour\noil or vegetable oil cooking spray"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Mix the flour with enough cold water to make a fairly stiff dough.\n2 Knead it well and roll small pieces into thin rounds,about 3 1/2 inches in diameter.\n3 Mix meat, onion, garlic, soy sauce, ginger and salt together.\n4 Put a teaspoon of meat mixture in each little pancake and fold over. Pinch, flute or pleat the edges together so the momo looks like a half-moon or is round shaped.\n5 Lightly coat a bamboo or metal steamer with vegetable spray and arrange momo so they do not touch. Cover and steam over boiling water for l0-15 minutes.\n6 Momo also can be cooked in broth and served as a soup or fried.\n7 NEPALESE meat filling.\n8 1 cup buffalo meat, ground or minced.\n9 l large onion, minced.\n10 2-3 cloves garlic.\n11 2.5 cm. piece ginger.\n12 1/2 teaspoon salt.\n13 1/2 teaspoon chili powder.\n14 1/2 teaspoon turmeric powder.\n15 1 tablespoon ghee or clarified butter.\n16 1/2 teaspoon cumin seed powder.\n17 oil or vegetable oil spray.\n18 2 cups+ flour.\n19 SHERPA Meat Filling.\n20 4 chicken breast halves,boneless, minced.\n21 2 minced onions.\n22 5 cloves garlic (or to taste), diced.\n23 3 tbs ginger, to taste, or one large piece diced.\n24 1-2 tablespoons soy sauce.\n25 salt, paper and accent to taste.\n26 1 teaspoon garam masala (optional)."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+         
+        
+       	 <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type7"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pulau Nepalese Basmati Rice Dish"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/pulaunepalesebasmatiricedish"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 1/2 cups uncooked basmati rice\n2 tablespoons vegetable oil\n1 medium onion, peeled and finely chopped\n2 cinnamon sticks (whole, approx 2 inches each)\n2 whole cloves\n1 bay leaf\n4 ounces cashews (don't need to be whole)\n2 ounces sultanas (golden raisins)\n1 teaspoon salt"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Wash the rice several times and let it soak for 30 minutes.\n2 Drain the rice well in a sieve.\n3 Heat the oil in a skillet over medium-low heat and cook onion until soft.\n4 Add all ingredients and spices, (except salt) to the pan and stir fry for 2 minutes over medium heat.\n5 Add 2 cups of water to the pan with salt and bring to a boil then cover tightly and.\n6 turn the heat to low.\n7 Simmer for 20 minutes, adding additional water during cooking, if necessary, until rice is tender and fluffy and all the water is absorbed.\n8 Remove bay leaf, cloves and cinnamon sticks before serving."
+					android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type8"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Yum Yum Chicken Curry"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/yumchickencurry"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4 teaspoons curry powder\n2 teaspoons coriander, ground\n2 teaspoons turmeric, ground\n1 teaspoon cumin, ground\n1/2 teaspoon salt\n3/4 teaspoon red pepper, ground\n1 bay leaf\n2 teaspoons olive oil\n1 1/2 lbs chicken breasts, skinless and boneless, chopping into 1-inch pieces and sprinkled with curry powder\n1 onion, small to medium vertically sliced\n1 1/2 teaspoons ginger, fresh, peeled, and minced\n2 garlic cloves, minced\n1 (8 ounce) can chicken broth\n1 (14 ounce) can light coconut milk\n6 roma tomatoes, chopped and sprinkled with cumin, coriander, and garlic powder\n2 medium sweet potatoes, peeled and cubed\n1 (14 ounce) can chickpeas, rinsed and drained\n1/2 cup green peas, frozen\n1 tablespoon fresh lemon juice"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Combine curry powder, coriander, turmeric, salt, pepper, cumin, and bay leaf in small bowl.\n2 Heat oil in large dutch oven over medium high heat. Add chicken to pan, and saute' til beginning to brown (stir frequently). Add onions, and continue to cook til onions tender and chicken is browning (still stirring). Add ginger and garlic, cook 1 minute stirring constantly. Add curry powder mixture, stir constantly, 2 minutes. Add broth, tomatoes, coconut milk, and potatoes; bring to a boil.\n3 Reduce heat and simmer for an hour, stirring occasionally. After an hour, begin water for rice, and add chickpeas and green peas to curry mixture. When rice is finished, remove curry from heat and add lemon.\n4 Serve over rice."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type9"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nepali Momo (Nepalese Meat Dumplings)"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/nepalimomo"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="wrappers\n4 cups all-purpose flour\n1 tablespoon oil\nwater, as required\n1 pinch salt\nFilling\n2 lbs lean ground meat (50% lamb or chicken and 50% pork works best)\n1 cup red onion, finely chopped\n1/2 cup green onion, finely chopped\n1 cup ripe tomato, finely chpped\n3 tablespoons fresh cilantro, chopped\n1 tablespoon fresh garlic, minced\n1 tablespoon fresh ginger, minced\n1/4 teaspoon nutmeg, freshly grated\n1/2 teaspoon turmeric\n1 tablespoon curry powder, or momo masala if available\n3 fresh red chilies, minced (or to taste)\n3 tablespoons cooking oil\nsalt and pepper"                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dough: In a large bowl combine flour, oil, salt and water.\n2 Mix well, knead until the dough becomes homogeneous in texture, about 8-10 minute.\n3 Cover and let stand for at least 30 minute.\n4 Knead well again before making wrappers.\n5 Filling: In a large bowl combine all filling ingredients.\n6 Mix well, adjust for seasoning with salt and pepper.\n7 Cover and refrigerate for at least an hour to allow all ingredients to impart their unique flavors.\n8 This also improves the consistency of the filling.\n9 Assembly:.\n10 Give the dough a final knead.\n11 Prepare 1-in. dough balls.\n12 Take a ball, roll between your palms to spherical shape.\n13 Dust working board with dry flour.\n14 On the board gently flatten the ball with your palm to about 2-in circle.\n15 Make a few semi-flattened circles, cover with a bowl.\n16 Use a rolling pin to roll out each flattened circle into a wrapper.\n17 For well executed MOMO's, it is essential that the middle portion of the wrapper be slightly thicker than the edges to ensure the structural integrity of dumplings during packing and steaming.\n18 Hold the edges of the semi-flattened dough with one hand and with the other hand begin rolling the edges of the dough out, swirling a bit at a time.\n19 Continue until the wrapper attains 3-in diameter circular shape.\n20 Repeat with the remaining semi-flattened dough circles.\n21 Cover with bowl to prevent from drying.\n22 For packing hold wrapper on one palm, put one tablespoon of filling mixture and with the other hand bring all edges together to the center, making the pleats.\n23 Pinch and twist the pleats to ensure the absolute closure of the stuffed dumpling.\n24 This holds the key to good tasting, juicy dumplings.\n25 Heat up a steamer, oil the steamer rack well.\n26 This is critical because it will prevent dumplings from sticking.\n27 Arrange uncooked dumplings in the steamer.\n28 Close the lid, and allow steaming until the dumplings are cooked through, about 10 minutes.\n29 Take dumplings off the steamer and serve immediately.\n30 Alternatively, you can place uncooked dumplings directly in slightly salted boiling water and cook until done, approximately 10 minutes. Be careful not to over boil the dumplings.\n31 You may also slightly sauté cooked dumplings in butter before serving.\n32 To serve, arrange the cooked dumplings (MOMO's) on serving plate with hot tomato achar or any other chutneys as condiment."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type10"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ghurka Chicken Cardamom Curry - Kukhra Alainchi Sanga"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/ghurkachickencardamom"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 kg chicken meat, chopped into small pieces\n200 g onions\n250 ml natural yoghurt\n50 ml vegetable oil\n1 1/2 teaspoons cardamom seeds\n25 g gingerroot (chopped, NOT powdered)\n4 garlic cloves\n1 1/2 teaspoons fennel seeds\n1 teaspoon cayenne pepper\n1 1/2 teaspoons turmeric\n1 cinnamon stick\n2 cloves\n350 ml cold water"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Peel and chop the onions, garlic and ginger into small pieces.\n2 Make a masala from the yoghurt, cardamom, chopped ginger, chopped garlic, fennel and cayenne by grinding the mixture into a smooth paste.\n3 Sprinkle the meat with a little salt, then pour over the masala mixture, and allow to marinade for at least an hour.\n4 Heat the oil, in a large pan, until a slight blue haze can bee seen. Add the cinnamon (chopped/ground into fine pieces), the cloves and the onion pieces. Cook until the onion is golden brown.\n5 Add the marinaded chicken pieces to the pan which should still have the onions, cloves and cinnamon, making sure that you get as much of the marinade in the pan as possible.\n6 Put it back on the heat. Without stirring the mixture, you should see oil slowly rising to the surface. At this stage CAREFULLY add the cold water and bring the mixture back to the boil.\n7 Cover the pan and simmer over a low heat until the chicken is cooked and tender. Stir occasionally.\n8 Serve the chicken meat on a bed of rice and pour over the masala that is left behind in the pan.\n9 The rice can be either plain, pilau or saffron. On the table add small serving bowls with individually contain chopped onions, chopped tomatoes, chopped cucumbers and chutney. This allows your diners to add the hot/cold selections from the bowls as they wish. This is also wonderful when served with nan bread or similar.\n10 Category Note.\n11 'Gurkha' curry listed in the English category?.\n12 Visit any English town and you will see at least one Indian restaurant and on the menu I will guarantee you will see at least 2 of these recipes. Indian (and Chinese) dishes have been taken and adapted to become our 'Traditional' English dishes. In some cases we have actually exported these dishes, slightly altered, back to the original country who has adopted them as their own national dishes!"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type11"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Lamb Bhutuwa (Nepali Lamb Stir-Fried in Himalayan Spices)"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/lambandapricot"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 lbs boneless lamb, cut into 1 in slices\n1 cup onion, chopped\n5 garlic cloves, halved\n1 inch gingerroot, julienned\n2 fresh red chilies\n1 teaspoon turmeric\n1/8 teaspoon asafetida powder\n1 teaspoon cumin powder\n1 teaspoon curry powder\n2 ried red chilies\n1 cup green onion, cut in 1 in. length\n1 cup green peas\n4 tablespoons cooking oil\n1 tablespoon lemon juice\n1 cup broth or 1 cup  water\nsalt and pepper"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 In a large bowl, combine two tablespoons of oil, one tablespoon of lemon juice, 1/2 teaspoon of turmeric, salt and pepper into a paste.\n2 Add lamb pieces and mix thoroughly to coat; cover, and let marinate for 30 minutes.\n3 After marinating, drain the marinade and pat-dry lamb pieces.\n4 In a processor, blend chopped onion, garlic, ginger, fresh red chilies, cumin and curry powder, asafetida, and turmeric into a smooth paste.\n5 In a non-stick pan heat two tablespoons of oil.\n6 Add dried red chilies and fry till dark.\n7 Add spice paste; fry for another few minutes until the oil starts to separate from the spices.\n8 Transfer marinated lamb to the pan, add salt and pepper and stir well to brown on high heat.\n9 Reduce the heat to medium and continue to stir fry lamb until cooked tender.\n10 It may require some broth or water to moisten, if it starts to burn.\n11 Add green peas and green onions; stir for another two minutes.\n12 Adjust seasoning with salt and pepper.\n13 Drain excess oil, if necessary.\n14 Serve with stir-fried vegetables and rice or roti (flat bread)."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type12"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Shikarni - Cinnamon-Flavored Banana Yogurt"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/shikarnicinnamonflavoredbananayogurt"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="500g hung yogurt (Hung in cheesecloth overnight)\n2 bananas (1 chopped, one sliced for garnish)\n100 g icing sugar\n1/2 teaspoon cinnamon\n1 tablespoon pistachios, slivers"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Mix icing sugar and cinnamon powder with the yogurt.\n2 Beat with a balloon whisk and incorporate one chopped banana.\n3 Slice the other banana and use as a garnish, arranged in a layer. Garnish with pistachio slivers."
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+             </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type13"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pahadiya Lamb Tarkari"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/pahsdiyalambtarkari"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 lbs lamb, cut into 1-in . cubes\n3 cups onions, chopped\n2 cups tomatoes, chopped\n1 teaspoon cumin powder\n1 teaspoon chili powder\n1 teaspoon turmeric\n1/4 teaspoon grated nutmeg\n2 dried red chilies\n2 cups broth or 2 cups water 1 tablespoon garlic, minced\n1 tablespoon gingerroot, minced\n4 tablespoons cooking oil salt and pepper\n2 tablespoons chopped fresh cilantro (to garnish)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 In large bowl, season lamb pieces with salt and pepper.\n2 In a non-stick pan, heat two tablespoons of oil.\n3 Add seasoned lamb pieces and brown well; discard excess oil and reserve meat on a plate.\n4 In a non-stick sauce pan, heat oil.\n5 To the hot oil, add whole red chilies; fry for 30 sec.\n6 Add turmeric and chopped onions, and fry until brown.\n7 Put garlic and ginger into the onion mixture; fry for 30 sec.\n8 To this mixture, add cumin, chili powder, grated nutmeg and chopped tomatoes; mix well for a few minutes.\n9 Transfer browned lamb pieces into the spice mixture, add salt and pepper; stir well.\n10 Add broth to the browned lamb; lower the heat to low and let simmer until lamb pieces are tender, and the sauce has attained a thick, saucy consistency, about 35-45 minute.\n11 When cooked, turn off the heat and add chopped cilantro to garnish.\n12 Serve hot with rice, and or roti (flat bread)."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type14"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Turmeric Soup"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/turmericsoup"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 tablespoon olive oil\n1 teaspoon fresh ginger, grated (or ginger paste)\n1 teaspoon fresh garlic, crushed\n1/2 teaspoon ground turmeric\n1 egg\n1 cup water\nsalt, to taste"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Heat oil, and saute ginger and garlic.\n2 Add turmeric and fry for about one minute.\n3 Break the egg in, and saute until cooked.\n4 Add the water, and heat until it comes to a boil.\n5 Add salt to taste."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type15"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Chana Ko Tarkari"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/chanakotarkari"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3 (400 g) cans organic garbanzo beans, drained (chickpeas)\n1 large onion, chopped\n3 roma tomatoes, coarsely chopped\n2 dried red chilies\n2 tablespoons finely minced garlic\n2 tablespoons finely minced ginger\n2 tablespoons curry powder\n1 teaspoon turmeric\n2 tablespoons vegetable oil\n1 cup water\nchopped cilantro and red onion (to garnish)"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Heat oil in wok or large pot.\n2 Fry red chills for a few seconds until almost black (make sure they don't burn).\n3 Add onion and stir for about 3 minutes.\n4 Add garlic and ginger, stir for about 1 minute.\n5 Then add curry powder and turmeric and stir for another minute.\n6 Add garbanzo beans (chickpeas), stir, and add in water.\n7 Cover and cook for 10-15 minutes over medium heat.\n8 Add tomatoes and cook for 5 minutes.\n9 Garnish with cilantro and red onion and serve"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type16"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nepali Chicken"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/nepalichicken"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 kg chicken (Chicken fillet, cubed pieces or any form you like)\n1 onion\n2 red capsicums\n2 tomatoes\n4 tablespoons yogurt\n1 teaspoon ginger paste or 1 teaspoon chopped gingerroot\n2 teaspoons garlic paste or 3 chopped garlic cloves\n1 teaspoon salt\n1 teaspoon pepper\n1 teaspoon coriander powder\n1/2 teaspoon cumin seed\n3 tablespoons cooking oil"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Marinate the chicken mixing your pieces with 1 Tablespoon yougurt, 1 Teaspoon garlic paste or chopped, and salt+pepper.\n2 Place this mixture in a fridge for 30 minutes.\n3 Chop Onions, Capsicums and 1 tomato in cubes. Pour 1 tablespoon cooking oil in a pan with lid, fry these vegetables on low heat for 30 minutes.\n4 Add a pinch of pepper and cover the pan for best 'steamed' results. Leave these on heat and proceed to the next steps.\n5 After the chicken is marinated, fry it to a golden brown. Drain and leave aside.\n6 In another pan, heat a tablespoon of cooking oil, fry 1 peeled, deseeded and slightly crushed tomato.\n7 After 1 minute, add 1 teaspoon garlic paste or chopped garlic, 1/2 teaspoon cumin seeds, and 1 teaspoon corriander powder. Fry this mixture for at least 5 minutes.\n8 Add 3 tablespoons of yogurt. If you like a lot of gravy, then you can add more yogurt. But if you prefer dry chicken, then 3 is enough.\n9 Add your already fried chicken to this mixture.\n10 Let this cook until the oil appears on the edges of the pan or when gravy thickens.\n11 Now add this cooked mixture on top of the bed of onions, capsicums and tomatoes in the other pan which is already on low heat. No need to mix everything.\n12 You're done. Serve with boiled white rice."
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+          <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type17"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hunza Pie"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/hunzapie"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 cups plain flour\n2 cups whole meal flour\n125 g chopped butter\n1/3 cup cold water\n1 tablespoon butter\n1 large brown onion, finely diced\n1 garlic clove, minced\n1 bunch fresh spinach, chopped and wilted or 1 (10 ounce) packet frozen spinach, cooked\n100 g crumbled feta\n250 g ricotta cheese\n200 g grated tasty cheese\n3 cups cooked brown rice\n3 eggs, beaten\n2 tablespoons chopped fresh chives\n1 pinch cayenne\n1 pinch salt\n1 pinch black pepper\n\nnutmeg, to taste"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Preheat oven to 200°C.\n2 Combine flours and butter in a food processor. Process until mixture resembles bread crumbs.\n3 Add cold water and process until dough comes together.\n4 Turn out onto a floured surface and knead until smooth, 4-5 minutes.\n5 Wrap dough in cling wrap and refrigerate until needed.\n6 Melt the butter over medium heat.\n7 Add the onion and garlic and cook until soft.\n8 Remove from pan and allow to cool.\n9 In a large mixing bowl, combine the spinach, feta, ricotta, cheese and eggs, stirring to combine.\n10 Add the rice and onion.\n11 Season generously with nutmeg, salt and pepper.\n12 Divide pastry into 4.\n13 Roll ¼ of pastry into round (dinner plate size) approximately 2mm thick. Place on baking tray.\n14 Heap ½ of filling onto pastry, leaving 2cm rim around outside. Cover with second rolled out piece of pastry. Crimp edges. Slash top to vent steam.\n15 Make second pie with remaining pastry and filling.\n16 Bake for 10 minutes at 200C, then reduce oven to 180C and bake for a further 40 minutes.\n17 Pie is ready when pastry is golden."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type18"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Vegy Lamb Tarkari"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/vegylambtarkari"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5 lbs boneless lamb\n2 cups mixed vegetables (cauliflower, beans, Carrot, Cabbage,Mushrom, you can add any favourite vegitables)\n1 cup yogurt\n1 teaspoon salt\n1 teaspoon pepper\n2 teaspoons mustard seeds, grated\n1 teaspoon black pepper\n1 piece ginger\n10 pieces gingerroot\n1 cup mustard oil\n2 pieces red onions\n2 pieces green chili peppers\n2 teaspoons cumin powder\n2 teaspoons garam masala powder"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 Cut lamb into 1 inch cubes and merinate overnight with the yogurt and spices mixed.\n2 cut and clean vegetables and keep aside.\n3 In a large pan put oil and sauteed Cumin and onion and chopped green chilli and sliced garlic and crushed ginger and fry till it turns brown.\n4 add lamb and cook in a low heat for 15 minute.\n5 stir occasionally.\n6 then add mixed vegetables and cover it with a lid and let it cook for next 5 minute.\n7 add little water.\n8 add all the spices and salt and stir properly and let it cook for few more minutes.\n9 serve hot with Rice or Bread and enjoy the taste."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         <ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/type19"
+            android:visibility="gone">
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Shadeko Mashu"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"/>
+                
+                <ImageView android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/shadekomashu"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ingredients"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2 lbs boneless leg of lamb\n3 red onions\n1/2 cup chopped green onion\n1/2 cup chopped green garlic sprouts\n4 pieces tomatoes\n4 pieces green chilies\n2 teaspoons salt\n50 g olive oil, for dressing\n2 pieces lemons\n1 teaspoon cumin powder\n2 teaspoons turmeric powder"
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Direction"
+                    android:textColor="#1143F6"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="1dp"/>
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1 cut the meat in small cubes and either boil it or bake it in the oven add salt, termeric and oil before boiling.\n2 when the meat is well cook drain excess water and keep in a cool place in a large bowl mix all the ingredients and add meat and mix it properly.\n3 Now it is ready to serve."
+                    android:textColor="#000000"
+                    android:typeface="serif"
+                    android:gravity="left"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"/>
+                
+            </LinearLayout>
+         </ScrollView>
+         
+    </RelativeLayout>
+</RelativeLayout>
